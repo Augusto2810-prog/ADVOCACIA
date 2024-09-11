@@ -1,76 +1,206 @@
 *{
-    padding: 0px;
-    margin: 0px;
-    color: white;
-    font-family: 'principal';
-  }
-  
-  header{
-    background-image: url(IMAGENS/foto-do-topo.png);
-    padding-bottom: 200px;
-    background-repeat: no-repeat;
-    
-  }
-  
-  header section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  header img{
-    padding-top: 20px;
-    padding-left: 50px;
-  }
-  
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .btn{
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    text-decoration: none;
-    color: white;
-    background: #61ce70;
-    width: 200px; 
-    padding: 0px 20px 0px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    border-radius: 10px;
-    width: none;
-  }
+header {
+  background-image: url(IMAGENS/foto-do-topo.png);
+  margin-bottom: 100px;
+  padding-bottom: 360px;
+  background-repeat: no-repeat;
+}
+
+header section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header img {
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+menu {
+  display: inline;
+  padding-top: 40px;
+  padding-right: 50px;
+}
+
+menu ul {
+  display: flex;
+  gap: 30px;
+}
+
+menu ul li {
+  list-style-type: none;
+}
+
+menu ul li a {
+  padding: 10px;
+  text-decoration: none;
+  color: #b48464;
+  font-family: 'principal';
+  font-size: 20px;
+}
+
+menu ul li a:hover {
+  color: #614430;
+  text-decoration: underline;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 250px;
+} 
+
+.btn {
+  text-decoration: none;
+  color: white;
+  background: #61ce70;
+  width: 200px;
+  margin-top: 50px;
+  padding: 0px 50px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.btn:hover {
+  background-color: #509c5a;
   
-menu{
-    display: inline;
-    padding-top: 40px;
-    padding-right: 50px;
-  }
-  
-  menu ul{
-    display: flex;
-    gap: 30px;
-  }
-  
-  menu ul li{
-    list-style-type: none;
-  }
-  
-  menu ul li a{
-    padding: 10px;
-    text-decoration: none;
-    color: #b48464;
-    font-family: 'principal';
-    font-size: 20px;
-  }
-  
-  menu ul li a:hover{
-    color: #614430;
-    text-decoration: underline;
-  }
-  
-  header div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+}
+
+.btn img {
+  padding-bottom: 20px;
+}
+
+.sobre {
+  color: #b48464;
+  font-family: 'principal';
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 50px;
+}
+
+div#bloco-2 {
+  border: 2px rgba(0, 0, 0, 0.61);
+  border-radius: 10px;
+  margin: 0vw 20vw 10vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+div#bloco-2 p{
+  color: rgba(0, 0, 0, 0.555);
+  text-indent: 10px;
+  line-height: 23px;
+  word-spacing: 5px;
+  font-size: 18px;
+  padding: 0vw 2vw;
+}
+
+div#bloco-3 {
+  background-image: url(IMAGENS/foto-do-bloco-3.png);
+  width: 100%;
+  padding: 500px 0px;
+  background-repeat: no-repeat;
+}
+
+.bloco-3-txt {
+  color: white;
+  font-family: 'principal';
+  font-size: 2.2vw;
+  margin-top: -350px;
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.icones h3 {
+  color: white;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.icones1 {
+  justify-content: center;
+  display: flex;
+  gap: 200px;
+  text-align: center;
+}
+
+.icones2 {
+  justify-content: center;
+  gap: 200px;
+  display: flex;
+}
+
+div#bloco-4 {
+  margin: -240px auto 0px auto;
+  text-align: center;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: black;
+}
+
+div#rodape {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20vw;
+}
+
+div#rodape .img {
+  margin-top: 30px;
+}
+
+div#rodape h3 {
+  text-indent: 30px;
+  margin-bottom: 25px;
+  font-size: 1.6em;
+  font-weight: lighter;
+}
+
+div#rodape p {
+  margin: 10px 0px;
+  padding: 4px 0px;
+}
+
+
+div#rodape h3, p {
+  color: white;
+  font-family: 'principal';
+}
+
+div#rodape img {
+  margin: 0px 8px -3px 0px;
+}
+
+div.endereco p {
+ text-align: center;
+}
+
+div.trs {
+  margin-top: 7px;
+}
+
+.cns {
+  margin-left: -20px;
+}
